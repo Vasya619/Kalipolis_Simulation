@@ -1,0 +1,91 @@
+{
+  "runId": "353c0f10e4-4b97188209",
+  "inputHash": "353c0f10e4e771d7d54e3f95af5ffec6f659f0f8cad7b8a3fc704ad27c4f6f0a",
+  "codeHash": "4b9718820962066aeb2906ba0dd2b6f721932df2d23e455a35a71ac1a974d788",
+  "codeHashes": {
+    "src/cli.mjs": "e363df290ebdbc82cde1fbf3b56765c4edc17d2b720587201f0d9a199ee5585c",
+    "src/config.mjs": "5bc0ea48403bfe81314ec0f814824de61f8f6b0f6183a62e9b1ff5da51a005e0",
+    "src/evaluate.mjs": "8a7fad61249973c5347d1f24de70e2f6942715db6a9219c006e28b6cefd382cc",
+    "src/math.mjs": "bdddbaada80614a86baf5ec5c61157c5b150ff2f156598e0454c2c9591c4923a",
+    "src/model.mjs": "fb809920e52e80c4e5c46ac4cb0aaa72a3ca9823420990d7f6f1de592a4d3e13",
+    "src/report.mjs": "98238a98586d00728f2f359d16fa48598235cff48f7251667f2b0460706806ed",
+    "src/search.mjs": "7b6933857ea74f47aeda542ac33f94befb6b4881f48c700ac7939f011cf2c26b",
+    "src/sensitivity.mjs": "aca9d4e0ec48227393bf569793235eafd1d7011a4bf0ff3dd74165b3a3cc585f",
+    "src/worlds.mjs": "e332e1296b655ddc34b513c18a235562b5d905199b8d2ce98caafbd50814792c"
+  },
+  "generatedAt": "2026-11-05T21:45:24.775Z",
+  "status": "ILLUSTRATIVE_UNCALIBRATED",
+  "seed": 41023,
+  "modelVersion": "1.0.0",
+  "screenedCandidates": 5888,
+  "finalists": 256,
+  "categoricalCombinations": 614400,
+  "evaluationMethod": "Equal-budget per-government evolutionary search; validation selection; untouched independent audit; common random worlds.",
+  "searchCoverage": {
+    "government": {
+      "representative_democracy": 736,
+      "direct_democracy": 736,
+      "constitutional_monarchy": 736,
+      "absolute_monarchy": 736,
+      "aristocracy": 736,
+      "oligarchy": 736,
+      "meritocracy": 736,
+      "tyranny": 736
+    },
+    "education": {
+      "public_comprehensive": 1222,
+      "mixed": 1141,
+      "private_subsidized": 1303,
+      "vocational": 958,
+      "central_curriculum": 1264
+    },
+    "reproduction": {
+      "no_direction": 1644,
+      "voluntary_planning": 1690,
+      "family_incentives": 1287,
+      "state_restrictions": 1267
+    },
+    "censorship": {
+      "minimal": 1876,
+      "targeted": 1764,
+      "extensive": 1272,
+      "political": 976
+    },
+    "class_system": {
+      "none": 2381,
+      "occupational": 1672,
+      "privileged": 859,
+      "hereditary": 976
+    },
+    "defense": {
+      "professional": 2148,
+      "militia": 1710,
+      "conscription": 2030,
+      "alliance": 0
+    },
+    "economy": {
+      "market": 1126,
+      "mixed": 1075,
+      "social_market": 1436,
+      "cooperative": 1346,
+      "planned": 905
+    },
+    "religion": {
+      "secular": 1690,
+      "established_free": 1190,
+      "plural_recognition": 1663,
+      "compulsory": 1345
+    },
+    "food": {
+      "import_led": 784,
+      "local_agriculture": 3504,
+      "controlled_environment": 760,
+      "diversified": 840
+    }
+  },
+  "diagnostics": {
+    "maxAccountingResidual": 5.960464477539063e-8,
+    "maxFoodResidual": 5.7553961596568115e-12,
+    "maxPopulationResidual": 6.912159733474255e-11
+  }
+}

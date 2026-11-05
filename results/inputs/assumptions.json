@@ -1,0 +1,166 @@
+{
+  "status": "ILLUSTRATIVE_UNCALIBRATED",
+  "description": "All numerical policy effects, institutional profiles, starting conditions and behavioral coefficients are author assumptions. Conceptual sources do NOT estimate these coefficients. Currency is constant benchmark units, not a forecast of a particular country.",
+  "uncertainty": {
+    "institutionRange": [
+      0.72,
+      1.28
+    ],
+    "educationRange": [
+      0.65,
+      1.35
+    ],
+    "taxDistortionRange": [
+      0.65,
+      1.35
+    ],
+    "wellbeingRange": [
+      0.65,
+      1.35
+    ],
+    "policingRange": [
+      0.65,
+      1.35
+    ],
+    "tradeRange": [
+      0.8,
+      1.2
+    ],
+    "religionRange": [
+      0.5,
+      1.5
+    ],
+    "leaderCompetenceRange": [
+      0.3,
+      0.95
+    ],
+    "annualNoiseRange": [
+      0.94,
+      1.06
+    ]
+  },
+  "population": {
+    "incomeShares": [
+      0.35,
+      0.5,
+      0.15
+    ],
+    "incomeMultipliers": [
+      0.52,
+      0.95,
+      2.2866666667
+    ],
+    "workingAgeStart": 20,
+    "workingAgeEnd": 64,
+    "fertileAgeStart": 20,
+    "fertileAgeEnd": 39,
+    "femaleShare": 0.5,
+    "initialAgeBandWeights": [
+      0.22,
+      0.13,
+      0.27,
+      0.23,
+      0.12,
+      0.03
+    ],
+    "ageBandEnds": [
+      14,
+      24,
+      44,
+      64,
+      79,
+      99
+    ],
+    "ageBandMortality": [
+      0.0005,
+      0.0008,
+      0.0015,
+      0.006,
+      0.03,
+      0.12
+    ],
+    "participationRate": 0.76,
+    "familyAdjustment": 0.2
+  },
+  "economy": {
+    "collectionBase": 0.76,
+    "collectionAdministration": 0.18,
+    "collectionTrust": 0.08,
+    "captureBase": 0.015,
+    "capturePower": 0.22,
+    "oversightCaptureReduction": 0.65,
+    "captureDomesticShare": 0.65,
+    "taxDistortion": 0.7,
+    "skillOutputElasticity": 0.65,
+    "healthOutputFloor": 0.7,
+    "coordinationOutput": 0.045,
+    "informationProductivityLoss": 0.065,
+    "classMisallocationLoss": 0.1,
+    "debtInterestRate": 0.035,
+    "debtRiskPremium": 0.035,
+    "annualBorrowingGdp": 0.025,
+    "debtLimitGdp": 0.9,
+    "publicWorkerAnnualCost": 42000,
+    "nonFoodEssentialCost": 6500,
+    "foodBasketAnnualCost": 2200,
+    "povertyNeedsRatio": 1,
+    "foodHouseholdBudgetShare": 0.3
+  },
+  "services": {
+    "educationAdequateGdp": 0.045,
+    "healthAdequateGdp": 0.055,
+    "investmentAdequateGdp": 0.035,
+    "policingReferenceGdp": 0.015,
+    "healthAdjustment": 0.16,
+    "infrastructureAdjustment": 0.13,
+    "infrastructureDisasterLoss": 0.1,
+    "graduateSkillAdjustment": 0.045,
+    "educationSkillGain": 0.5,
+    "trustAdjustment": 0.16,
+    "administrationGdp": 0.02,
+    "oversightCostGdp": 0.008,
+    "publicLaborWarningShare": 0.7
+  },
+  "food": {
+    "hectaresPerAnnualRation": 0.22,
+    "initialReserveSpoilage": 0.08,
+    "reserveMaintenanceGdpPerMonth": 0.00065,
+    "reserveExpansionAnnualFraction": 0.3,
+    "agriculturalLaborMaximumShare": 0.2,
+    "disasterYieldLoss": 0.42,
+    "importDisruptionLoss": 0.72,
+    "minimumFoodFailureCoverage": 0.8,
+    "shortageYearsForFailure": 2,
+    "distributionIncomeElasticity": 0.2
+  },
+  "security": {
+    "baseVictimizationsPer1000": 55,
+    "povertyCrimeMultiplier": 1.15,
+    "inequalityCrimeMultiplier": 0.8,
+    "trustCrimeReduction": 0.35,
+    "policingEffect": 1.15,
+    "stateHarmPer1000": 18,
+    "safetyNormalizationRate": 45,
+    "defenseReferenceGdp": 0.025,
+    "threatCapability": 1.05,
+    "attackOutputLoss": 0.12,
+    "disasterOutputLoss": 0.09,
+    "successionOutputLoss": 0.08,
+    "recessionOutputLoss": 0.15
+  },
+  "wellbeing": {
+    "intercept": 3,
+    "incomeLogCoefficient": 1.15,
+    "healthCoefficient": 1,
+    "trustCoefficient": 0.75,
+    "autonomyCoefficient": 0.9,
+    "safetyCoefficient": 0.8,
+    "foodShortagePenalty": 3.2,
+    "unmetNeedsPenalty": 0.8,
+    "classExclusionPenalty": 0.5,
+    "religiousExclusionPenalty": 0.65,
+    "majorityAffinityBonus": 0.12,
+    "coercionPenalty": 0.6,
+    "lowerTailPopulationShare": 0.2
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "modelVersion": "1.0.0",
+  "city": {
+    "name": "Trade disruption and constrained alliances",
+    "startYear": 2026,
+    "population": 10000,
+    "years": 18,
+    "gdpPerCapita": 32000,
+    "agriculturalLandHectares": 2000,
+    "initialSkill": 1,
+    "initialHealth": 0.75,
+    "initialInfrastructure": 0.7,
+    "initialTrust": 0.55,
+    "initialDebtToGdp": 0.1,
+    "initialFoodReserveMonths": 1,
+    "initialTotalFertility": 1.8,
+    "majorityReligionShare": 0.6,
+    "exportShare": 0.3,
+    "essentialNonFoodImportsGdp": 0.045,
+    "tradeAccess": 0.8,
+    "allianceAvailable": false,
+    "allianceReliability": 0.8,
+    "gridReliability": 0.95,
+    "externalThreatProbability": 0.15,
+    "disasterProbability": 0.1,
+    "tradeDisruptionProbability": 0.35,
+    "recessionProbability": 0.12
+  },
+  "search": {
+    "seed": 41023,
+    "initialPerGovernment": 256,
+    "generations": 6,
+    "offspringPerGeneration": 80,
+    "eliteCount": 48,
+    "screenWorlds": 12,
+    "finalistsPerGovernment": 32,
+    "validationWorlds": 96,
+    "auditWorlds": 128
+  },
+  "constraints": {
+    "maxFailureFrequency": 0.2,
+    "minimumMeanFoodCoverage": 0.95,
+    "minimumMeanServices": 0.55,
+    "maximumMeanDebtToGdp": 0.8
+  },
+  "ranking": {
+    "riskAversion": 0.3,
+    "failurePenalty": 0.2,
+    "weights": {
+      "happiness": 0.32,
+      "lowerTail": 0.16,
+      "safety": 0.14,
+      "defense": 0.12,
+      "resilience": 0.12,
+      "autonomy": 0.08,
+      "sustainability": 0.06
+    }
+  },
+  "decisionBounds": {
+    "taxRate": [
+      0.16,
+      0.46
+    ],
+    "educationGdp": [
+      0.025,
+      0.075
+    ],
+    "healthGdp": [
+      0.025,
+      0.09
+    ],
+    "policingGdp": [
+      0.006,
+      0.025
+    ],
+    "investmentGdp": [
+      0.012,
+      0.055
+    ],
+    "defenseEffort": [
+      0.6,
+      1.6
+    ],
+    "oversight": [
+      0,
+      1
+    ],
+    "reserveMonths": [
+      1,
+      6
+    ]
+  }
+}

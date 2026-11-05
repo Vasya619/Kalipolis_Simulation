@@ -1,0 +1,9 @@
+{
+  "city": {
+    "name": "Trade disruption and constrained alliances",
+    "tradeDisruptionProbability": 0.35,
+    "tradeAccess": 0.80,
+    "allianceAvailable": false,
+    "externalThreatProbability": 0.15
+  }
+}

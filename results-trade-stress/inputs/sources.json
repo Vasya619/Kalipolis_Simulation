@@ -1,0 +1,24 @@
+{
+  "reviewedOn": "2026-11-05",
+  "calibrationStatus": "No empirical calibration dataset has been loaded. Links support measurement concepts, not numeric effects or causal claims.",
+  "sources": [
+    {
+      "id": "whr",
+      "title": "World Happiness Report: methodology FAQ",
+      "url": "https://www.worldhappiness.report/faq/",
+      "use": "Life evaluation as a subjective outcome on a 0–10 scale. This model does not use or reproduce fitted WHR coefficients."
+    },
+    {
+      "id": "oecd",
+      "title": "OECD How's Life?",
+      "url": "https://www.oecd.org/en/publications/how-s-life_23089679.html",
+      "use": "Multidimensional well-being and distributional outcomes, not numerical calibration."
+    },
+    {
+      "id": "vdem",
+      "title": "V-Dem methodology",
+      "url": "https://www.v-dem.net/about/v-dem-project/methodology/",
+      "use": "Institutional characteristics and measurement uncertainty. No V-Dem dataset has been imported."
+    }
+  ]
+}

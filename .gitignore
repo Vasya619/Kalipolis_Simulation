@@ -1,0 +1,5 @@
+node_modules/
+.tmp/
+results-quick/
+results-test/
+*.log

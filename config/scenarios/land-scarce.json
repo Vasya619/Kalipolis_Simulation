@@ -1,0 +1,8 @@
+{
+  "city": {
+    "name": "Land-scarce trading city",
+    "agriculturalLandHectares": 350,
+    "tradeAccess": 0.98,
+    "tradeDisruptionProbability": 0.08
+  }
+}

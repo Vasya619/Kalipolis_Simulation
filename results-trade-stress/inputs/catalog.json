@@ -1,0 +1,461 @@
+{
+  "evidenceStatus": "Every numerical value in this catalog is an explicit illustrative modeling assumption, not a measured treatment effect.",
+  "government": [
+    {
+      "id": "representative_democracy",
+      "label": "Representative democracy",
+      "description": "Elected representatives with competitive removal and institutional checks.",
+      "concentration": 0.35,
+      "accountability": 0.8,
+      "participation": 0.75,
+      "coordination": 0.55,
+      "administration": 0.65,
+      "selectionSkill": 0.02,
+      "successionProbability": 0.22,
+      "successionContest": 0.12,
+      "administrationCost": 0.006
+    },
+    {
+      "id": "direct_democracy",
+      "label": "Direct democracy",
+      "description": "Citizen voting on major decisions with delegated administration.",
+      "concentration": 0.15,
+      "accountability": 0.85,
+      "participation": 0.95,
+      "coordination": 0.35,
+      "administration": 0.58,
+      "selectionSkill": 0,
+      "successionProbability": 0.2,
+      "successionContest": 0.1,
+      "administrationCost": 0.009
+    },
+    {
+      "id": "constitutional_monarchy",
+      "label": "Constitutional monarchy",
+      "description": "Hereditary ceremonial head with elected government and constitutional checks.",
+      "concentration": 0.35,
+      "accountability": 0.78,
+      "participation": 0.7,
+      "coordination": 0.58,
+      "administration": 0.65,
+      "selectionSkill": 0.02,
+      "successionProbability": 0.18,
+      "successionContest": 0.13,
+      "administrationCost": 0.008
+    },
+    {
+      "id": "absolute_monarchy",
+      "label": "Absolute monarchy",
+      "description": "Hereditary executive authority with limited institutional removal.",
+      "concentration": 0.95,
+      "accountability": 0.2,
+      "participation": 0.1,
+      "coordination": 0.9,
+      "administration": 0.62,
+      "selectionSkill": 0,
+      "successionProbability": 0.055,
+      "successionContest": 0.7,
+      "administrationCost": 0.004
+    },
+    {
+      "id": "aristocracy",
+      "label": "Aristocracy",
+      "description": "A small hereditary governing council; social class policy is a separate decision.",
+      "concentration": 0.75,
+      "accountability": 0.3,
+      "participation": 0.2,
+      "coordination": 0.72,
+      "administration": 0.6,
+      "selectionSkill": 0.01,
+      "successionProbability": 0.09,
+      "successionContest": 0.42,
+      "administrationCost": 0.005
+    },
+    {
+      "id": "oligarchy",
+      "label": "Oligarchy",
+      "description": "A small wealth-selected governing group; no mandatory economy or class option.",
+      "concentration": 0.85,
+      "accountability": 0.24,
+      "participation": 0.15,
+      "coordination": 0.78,
+      "administration": 0.68,
+      "selectionSkill": 0.03,
+      "successionProbability": 0.11,
+      "successionContest": 0.45,
+      "administrationCost": 0.004
+    },
+    {
+      "id": "meritocracy",
+      "label": "Meritocratic technocracy",
+      "description": "Leaders selected by assessed competence; assessment can fail and authority remains contestable.",
+      "concentration": 0.6,
+      "accountability": 0.5,
+      "participation": 0.35,
+      "coordination": 0.82,
+      "administration": 0.78,
+      "selectionSkill": 0.07,
+      "successionProbability": 0.15,
+      "successionContest": 0.25,
+      "administrationCost": 0.008
+    },
+    {
+      "id": "tyranny",
+      "label": "Personalist autocracy / tyranny",
+      "description": "Personal executive control with weak removal and review mechanisms.",
+      "concentration": 0.99,
+      "accountability": 0.08,
+      "participation": 0.04,
+      "coordination": 0.93,
+      "administration": 0.6,
+      "selectionSkill": 0,
+      "successionProbability": 0.07,
+      "successionContest": 0.85,
+      "administrationCost": 0.006
+    }
+  ],
+  "education": [
+    {
+      "id": "public_comprehensive",
+      "label": "Public comprehensive",
+      "description": "Broad publicly funded access and a general curriculum.",
+      "cost": 1,
+      "skill": 1,
+      "lowIncomeAccess": 1,
+      "criticalThinking": 0.8,
+      "privateTuition": 0
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed public and private",
+      "description": "Public provision with regulated private alternatives.",
+      "cost": 0.95,
+      "skill": 1.06,
+      "lowIncomeAccess": 0.9,
+      "criticalThinking": 0.85,
+      "privateTuition": 0.01
+    },
+    {
+      "id": "private_subsidized",
+      "label": "Subsidized private education",
+      "description": "Private provision with public subsidies and household fees.",
+      "cost": 0.78,
+      "skill": 1.12,
+      "lowIncomeAccess": 0.7,
+      "criticalThinking": 0.85,
+      "privateTuition": 0.025
+    },
+    {
+      "id": "vocational",
+      "label": "Vocational emphasis",
+      "description": "General schooling with a larger vocational and apprenticeship component.",
+      "cost": 0.9,
+      "skill": 1.1,
+      "lowIncomeAccess": 0.97,
+      "criticalThinking": 0.65,
+      "privateTuition": 0.003
+    },
+    {
+      "id": "central_curriculum",
+      "label": "Centralized prescribed curriculum",
+      "description": "Uniform state curriculum and centralized staffing.",
+      "cost": 0.9,
+      "skill": 0.98,
+      "lowIncomeAccess": 1,
+      "criticalThinking": 0.35,
+      "privateTuition": 0
+    }
+  ],
+  "reproduction": [
+    {
+      "id": "no_direction",
+      "label": "No state reproductive direction",
+      "description": "No state direction of reproductive choices.",
+      "costGdp": 0,
+      "fertilityShift": 0,
+      "healthSupport": 0,
+      "coercion": 0
+    },
+    {
+      "id": "voluntary_planning",
+      "label": "Voluntary family planning",
+      "description": "Voluntary reproductive healthcare and informed choice.",
+      "costGdp": 0.004,
+      "fertilityShift": -0.1,
+      "healthSupport": 0.1,
+      "coercion": 0
+    },
+    {
+      "id": "family_incentives",
+      "label": "Voluntary family incentives",
+      "description": "Financial and care support for families; no compulsory reproduction.",
+      "costGdp": 0.012,
+      "fertilityShift": 0.3,
+      "healthSupport": 0.06,
+      "coercion": 0
+    },
+    {
+      "id": "state_restrictions",
+      "label": "State-directed reproductive restrictions",
+      "description": "High-level comparison of coercive reproductive control. No assumed genetic improvement; enforcement and autonomy harms are represented.",
+      "costGdp": 0.009,
+      "fertilityShift": -0.35,
+      "healthSupport": -0.05,
+      "coercion": 0.9
+    }
+  ],
+  "censorship": [
+    {
+      "id": "minimal",
+      "label": "Minimal censorship",
+      "description": "Narrow restrictions on directly unlawful conduct with independent review.",
+      "openness": 0.98,
+      "coercion": 0.02,
+      "costGdp": 0.001,
+      "reporting": 0.95
+    },
+    {
+      "id": "targeted",
+      "label": "Targeted content restrictions",
+      "description": "Defined content restrictions with an appeals process.",
+      "openness": 0.82,
+      "coercion": 0.12,
+      "costGdp": 0.003,
+      "reporting": 0.86
+    },
+    {
+      "id": "extensive",
+      "label": "Extensive state filtering",
+      "description": "Broad content filtering and monitoring.",
+      "openness": 0.42,
+      "coercion": 0.5,
+      "costGdp": 0.007,
+      "reporting": 0.62
+    },
+    {
+      "id": "political",
+      "label": "Political censorship",
+      "description": "Suppression of political criticism and independent reporting.",
+      "openness": 0.12,
+      "coercion": 0.9,
+      "costGdp": 0.009,
+      "reporting": 0.32
+    }
+  ],
+  "class_system": [
+    {
+      "id": "none",
+      "label": "No legally enforced classes",
+      "description": "Equal formal standing; income differences can still emerge.",
+      "rigidity": 0,
+      "eliteCapture": 0,
+      "costGdp": 0,
+      "lowAccess": 1
+    },
+    {
+      "id": "occupational",
+      "label": "Mobile occupational hierarchy",
+      "description": "Occupational ranks with routes to change status.",
+      "rigidity": 0.25,
+      "eliteCapture": 0.08,
+      "costGdp": 0.002,
+      "lowAccess": 0.9
+    },
+    {
+      "id": "privileged",
+      "label": "Legally privileged groups",
+      "description": "Legal advantages for a restricted group.",
+      "rigidity": 0.65,
+      "eliteCapture": 0.22,
+      "costGdp": 0.005,
+      "lowAccess": 0.72
+    },
+    {
+      "id": "hereditary",
+      "label": "Hereditary classes",
+      "description": "Inherited legal status with restricted mobility.",
+      "rigidity": 0.95,
+      "eliteCapture": 0.35,
+      "costGdp": 0.008,
+      "lowAccess": 0.52
+    }
+  ],
+  "defense": [
+    {
+      "id": "professional",
+      "label": "Small professional force",
+      "description": "Standing professional defense with training and equipment costs.",
+      "costGdp": 0.025,
+      "effectiveness": 1.2,
+      "laborShare": 0.48,
+      "alliance": false,
+      "civilianBurden": 0.01
+    },
+    {
+      "id": "militia",
+      "label": "Citizen militia",
+      "description": "Reserve training and civil defense; substantial part-time participation.",
+      "costGdp": 0.015,
+      "effectiveness": 0.82,
+      "laborShare": 0.32,
+      "alliance": false,
+      "civilianBurden": 0.025
+    },
+    {
+      "id": "conscription",
+      "label": "Conscription",
+      "description": "Mandatory service with opportunity costs and broader mobilization.",
+      "costGdp": 0.021,
+      "effectiveness": 1.05,
+      "laborShare": 0.65,
+      "alliance": false,
+      "civilianBurden": 0.055
+    },
+    {
+      "id": "alliance",
+      "label": "Defense agreement and local guard",
+      "description": "Paid agreement with an external partner; availability and reliability are contextual inputs.",
+      "costGdp": 0.014,
+      "effectiveness": 0.55,
+      "laborShare": 0.25,
+      "alliance": true,
+      "civilianBurden": 0.005
+    }
+  ],
+  "economy": [
+    {
+      "id": "market",
+      "label": "Market-oriented economy",
+      "description": "Private production, limited transfers, and competitive markets.",
+      "productivity": 1.08,
+      "transferGdp": 0.012,
+      "inequality": 1.22,
+      "taxSensitivity": 1.1,
+      "publicCostGdp": 0.002
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed economy",
+      "description": "Market production with public services and moderate redistribution.",
+      "productivity": 1.03,
+      "transferGdp": 0.04,
+      "inequality": 0.96,
+      "taxSensitivity": 0.9,
+      "publicCostGdp": 0.004
+    },
+    {
+      "id": "social_market",
+      "label": "Social market economy",
+      "description": "Competitive production with larger transfers and social insurance.",
+      "productivity": 1,
+      "transferGdp": 0.065,
+      "inequality": 0.82,
+      "taxSensitivity": 0.85,
+      "publicCostGdp": 0.006
+    },
+    {
+      "id": "cooperative",
+      "label": "Cooperative emphasis",
+      "description": "Worker and community ownership with income compression.",
+      "productivity": 0.98,
+      "transferGdp": 0.035,
+      "inequality": 0.74,
+      "taxSensitivity": 0.75,
+      "publicCostGdp": 0.007
+    },
+    {
+      "id": "planned",
+      "label": "Centrally planned economy",
+      "description": "Central production allocation and extensive public provision.",
+      "productivity": 0.91,
+      "transferGdp": 0.055,
+      "inequality": 0.7,
+      "taxSensitivity": 0.5,
+      "publicCostGdp": 0.016
+    }
+  ],
+  "religion": [
+    {
+      "id": "secular",
+      "label": "Secular state",
+      "description": "No official religion and equal formal protection.",
+      "establishment": 0,
+      "exclusion": 0,
+      "coercion": 0,
+      "costGdp": 0.001
+    },
+    {
+      "id": "established_free",
+      "label": "Established religion with freedom",
+      "description": "Official religion with protected freedom for other beliefs.",
+      "establishment": 0.65,
+      "exclusion": 0.12,
+      "coercion": 0.03,
+      "costGdp": 0.003
+    },
+    {
+      "id": "plural_recognition",
+      "label": "Multiple recognized religions",
+      "description": "Public recognition and support for multiple communities.",
+      "establishment": 0.25,
+      "exclusion": 0.03,
+      "coercion": 0,
+      "costGdp": 0.004
+    },
+    {
+      "id": "compulsory",
+      "label": "Compulsory state religion",
+      "description": "Mandatory religious conformity with enforcement and exclusion.",
+      "establishment": 1,
+      "exclusion": 0.9,
+      "coercion": 0.85,
+      "costGdp": 0.007
+    }
+  ],
+  "food": [
+    {
+      "id": "import_led",
+      "label": "Import-led food supply",
+      "description": "Low domestic production and strong dependence on trade.",
+      "localShare": 0.1,
+      "yieldMultiplier": 1,
+      "laborPerRation": 0.035,
+      "costMultiplier": 0.94,
+      "energyIntensity": 0.15,
+      "publicCostGdp": 0.002
+    },
+    {
+      "id": "local_agriculture",
+      "label": "Local conventional agriculture",
+      "description": "High domestic production subject to land, labor and weather limits.",
+      "localShare": 0.8,
+      "yieldMultiplier": 1,
+      "laborPerRation": 0.045,
+      "costMultiplier": 1.04,
+      "energyIntensity": 0.25,
+      "publicCostGdp": 0.005
+    },
+    {
+      "id": "controlled_environment",
+      "label": "Controlled-environment production",
+      "description": "Present-day greenhouses and protected cultivation; higher capital and energy requirements.",
+      "localShare": 0.65,
+      "yieldMultiplier": 3,
+      "laborPerRation": 0.03,
+      "costMultiplier": 1.28,
+      "energyIntensity": 0.9,
+      "publicCostGdp": 0.013
+    },
+    {
+      "id": "diversified",
+      "label": "Diversified local production and imports",
+      "description": "Mixed domestic supply and trade with maintained reserves.",
+      "localShare": 0.45,
+      "yieldMultiplier": 1.35,
+      "laborPerRation": 0.04,
+      "costMultiplier": 1.08,
+      "energyIntensity": 0.4,
+      "publicCostGdp": 0.007
+    }
+  ]
+}

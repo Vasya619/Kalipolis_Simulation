@@ -1,0 +1,13 @@
+{
+  "name": "kalipolis-simulation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible, assumption-explicit multi-objective city-state simulation. No external dependencies.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "simulate": "node src/cli.mjs",
+    "simulate:quick": "node src/cli.mjs --quick",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
